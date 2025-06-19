@@ -1,10 +1,6 @@
-name: Run Vitest on Push & PR
+name: Run Vitest on PR
 
 on:
-  push:
-    branches:
-      - main
-      - solution
   pull_request:
     branches:
       - main
